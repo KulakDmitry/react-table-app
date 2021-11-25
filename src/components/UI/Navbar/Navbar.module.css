@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: #447fea;
+  font-size: 20px;
+  transition: all 0.15s ease-in-out;
+}
+
+.link:hover {
+  color: #254e70;
+  transform: scale(1.15);
+}

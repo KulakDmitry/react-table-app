@@ -1,0 +1,14 @@
+.btnAdd {
+  padding: 10px;
+  border: 2px solid darkgrey;
+  margin: 30px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: aliceblue;
+  transition: all 0.15s ease-in-out;
+}
+
+.btnAdd:hover {
+  color: aliceblue;
+  background-color: cornflowerblue;
+}

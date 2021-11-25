@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 0 150px;
+}
+
+#root .App {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.page__menu {
+  margin: 10px 0 30px;
+}
+
+.page {
+  padding: 10px;
+  border: 2px solid darkgrey;
+  margin: 5px 3px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: aliceblue;
+  transition: all 0.15s ease-in-out;
+}
+.page__current {
+  padding: 10px;
+  border: 2px solid darkgrey;
+  margin: 5px 3px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+  transition: all 0.15s ease-in-out;
+}
+
+.page:hover {
+  color: aliceblue;
+  background-color: cornflowerblue;
+}
+
+.outputCount {
+  display: flex;
+  flex-direction: row-reverse;
+}
