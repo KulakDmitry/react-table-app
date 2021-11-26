@@ -7,7 +7,7 @@ import Navbar from "./components/UI/Navbar/Navbar";
 
 function App() {
   return (
-    <HashRouter className="App" basename={process.env.PUBLIC_URL}>
+    <HashRouter className="App">
       <Navbar />
       <Routes>
         <Route path="/custom-table" element={<CustomTable />} />
